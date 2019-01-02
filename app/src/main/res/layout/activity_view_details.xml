@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="42dp">
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="SEARCH DATABASE BY :- "
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="35dp"/>
+
+
+            <Button
+                android:id="@+id/buttonSearchById"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:layout_marginTop="130dp"
+                android:background="@drawable/search_button1"
+                android:onClick="openSearchIdActivity"
+                android:text="ID No"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/buttonSearchByName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="47dp"
+                android:layout_marginTop="130dp"
+                android:layout_marginRight="4dp"
+
+                android:layout_toRightOf="@+id/buttonSearchById"
+                android:background="@drawable/search_button1"
+                android:onClick="openSearchNameActivity"
+                android:text=" Name "
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/buttonSearchByName"
+                android:layout_marginTop="25dp"
+                android:text=" Vehicle Chasis "
+                android:onClick="openSearchChasisActivity"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/search_button1"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textColor="#111111"
+            android:textSize="30dp"
+            android:layout_marginTop="300dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" View full database "
+            android:textColor="@color/colorPrimary"
+            android:textSize="30dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="60dp"/>
+        <Button
+            android:id="@+id/buttonall"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="430dp"
+            android:background="@drawable/search_button"
+            android:text="View Table"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,36 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_homepage"
+    tools:context=".MainActivity">
+
+  <Button
+      android:id="@+id/button1"
+      android:layout_width="280dp"
+      android:layout_height="60dp"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="147dp"
+      android:background="@drawable/button_shape"
+      android:onClick="loadEnterDetails"
+      android:text="Enter Details"
+      android:textColor="#ffffff"
+      android:textSize="35sp" />
+
+  <Button
+      android:layout_width="280dp"
+      android:layout_height="60dp"
+      android:layout_below="@+id/button1"
+      android:layout_alignEnd="@+id/button1"
+      android:layout_marginTop="102dp"
+      android:layout_marginEnd="-1dp"
+      android:background="@drawable/button_shape"
+      android:onClick="loadViewDetails"
+      android:text="VIEW DETAILS"
+      android:textColor="#ffffff"
+      android:textSize="35sp" />
+
+</RelativeLayout>

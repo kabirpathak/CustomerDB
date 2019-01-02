@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search_by_chasis">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/searchTextChasis"
+            android:layout_width="250dp"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="75dp"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop = "200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="150dp"
+            android:background="@drawable/search_button"
+            android:text="  Search  "
+            android:onClick="searchByChasis"
+            />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

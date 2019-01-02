@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search_by_name">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <EditText
+            android:id="@+id/nameSearchText"
+            android:layout_width="250dp"
+
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:layout_marginTop="80dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/nameSearchText"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop = "100dp"
+            android:layout_marginHorizontal="150dp"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/search_button"
+            android:text=" Search "
+            android:onClick="searchByName"
+            />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

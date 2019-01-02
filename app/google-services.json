@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "165398299474",
+    "firebase_url": "https://neelapp-7bd9d.firebaseio.com",
+    "project_id": "neelapp-7bd9d",
+    "storage_bucket": "neelapp-7bd9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165398299474:android:b8ff19f7bb398da3",
+        "android_client_info": {
+          "package_name": "firstapp.com.neelapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165398299474-a84g4fnmmn25mats7flrpjv1uac6dlt3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "firstapp.com.neelapp",
+            "certificate_hash": "4e004ad69ad95a9af4a7edefa1fd8e9056521315"
+          }
+        },
+        {
+          "client_id": "165398299474-t6hv6hslkedm8j4jipt3mgboidndd18s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkMoNDF2rozbXnzvPraIFMaVIKfK5Z8_4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165398299474-t6hv6hslkedm8j4jipt3mgboidndd18s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
