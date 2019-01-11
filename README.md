@@ -1,6 +1,6 @@
 # CustomerDB
 
-A simple android database management application that makes storing and viewing user data simpler. It makes use of the firebase 
+A simple android database management application that makes ENTERING, STORING and VIEWING user data simpler. It makes use of the firebas 
 realtime database and SQLite.
 
 Image previews :-
